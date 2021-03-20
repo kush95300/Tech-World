@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hadoop.css">
+    <title>Hadoop Menu</title>
+    <link rel="icon" href="hadoop-un.png" type = "image/x-icon">
+<body>
+<div class="container">
+    <div class="header">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hadoop_logo_new.svg/640px-Hadoop_logo_new.svg.png" alt="" width="500" height="300">
+    </div>
+    <div class="cards">
+        <div class="card card1">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Configure System as:</h4>
+            <label for="Node" >NameNode</label>
+            <input type="radio" value="Start" class="radio" name="node">
+            <label for="Node" >DataNode</label>
+            <input type="radio" value="Start" class="radio" name="node">
+            <input type="text" placeholder="Enter public IP of Master Node" name="ip">
+            <input type="hidden" name="choice" value="1">
+            <button type="submit" id="btn">Submit</button>
+            </form>
+                
+        </div>
+        <div class="card card2">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>See Hadoop Cluster Report</h4>
+            <input type="hidden" name="choice" value="2">
+            <button type="submit">See Report</button>
+            </form>
+            <hr>
+            <form action="">
+            <h4>Open Hadoop WebUI App</h4>
+            <input type="text" placeholder="Enter Public IP of Master Node" name="ip">
+            <input type="hidden" name="choice" value="3">
+            <button type="submit" id="btn">WebUI-File System</button>
+            </form>
+           
+
+        </div>
+        
+        
+        <div class="card card4">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+           <h4>Read a File</h4>
+           
+           <input type="text" placeholder="Enter Folder name(default /)" name="fold">
+           <input type="hidden" name="choice" value="5">
+           <button type="submit">Read</button>
+           </form>
+        </div>
+        <div class="card card5">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Create a Folder</h4>
+           <input type="text" placeholder="Enter Folder name" name="fold">
+           <input type="hidden" name="choice" value="6">
+           <button type="submit">Create</button>
+             </form>
+
+        </div>
+        <div class="card card9">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Remove a Folder</h4>
+           <input type="text" placeholder="Enter Folder name(default /)" name="fold">
+           <input type="hidden" name="choice" value="10">
+           <button type="submit">Remove Folder</button>
+           
+
+         </form>
+        </div>
+        <div class="card card6">
+            <form action="">
+            <h4>create a file</h4>
+           
+           <input type="text" placeholder="Enter Folder name(default /)" name="fold">
+           <input type="hidden" name="choice" value="7">
+          
+           <textarea placeholder="Enter the File Content" id="text" name="content" rows="6" cols="40" ></textarea>
+           <br>
+           <button type="submit">Create</button>
+           </form>
+
+        </div>
+        <div class="card card7">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Create an Empty  file</h4>
+           <input type="text" placeholder="Enter Folder name(default /)" name="fold">
+           <input type="text" placeholder="Enter Folder name with Extension" name="file">
+           <input type="hidden" name="choice" value="8">
+           <button type="submit">Create an Empty File</button>
+           </form>
+
+        </div>
+        <div class="card card3">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Listing Folder items</h4>
+            <input type="text" placeholder="Enter Directory or Folder Name " name="fold">
+            <input type="hidden" name="choice" value="4">
+            <button type="submit">See File System</button>
+           </form>
+        </div>
+        <div class="card card8">
+            <form action="http://192.168.43.185/cgi-bin/hadoopapi.py">
+            <h4>Remove a file</h4>
+            <input type="text" placeholder="Enter Folder name(default /)" name="fold">
+            <input type="text" placeholder="Enter Folder name with Extension" name="file">
+            <input type="hidden" name="choice" value="9">
+            <button type="submit">Remove File</button>
+              </form>
+           
+
+        </div>
+        
+       <script type="text/javascript">
+       textarea = document.querySelector("#text");
+       textarea.addEventListener('input',autoresizing,false)
+                    function autoresizing(){
+                        this.style.height ='auto';
+                        this.style.height=this.scrollHeight +'px';
+                    }
+           </script>
+        
+
+    </div>
+</div>
+</body>
+</html>

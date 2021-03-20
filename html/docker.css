@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 250%;
+    background: #c7f1ed;
+    /* background: aquamarine; */
+    
+
+}
+.header{
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.header img{
+    padding-top: 15px;
+}
+.header .heading{
+    font-size: 60px;
+    color: rgb(16, 122, 243);
+    text-shadow: 3px 3px gray;
+    padding-top: 15px;
+    
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    
+}
+.cards{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    
+    padding: 10px
+    
+
+}
+
+
+.cards .card{
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(222,230,233);
+background: linear-gradient(302deg, rgba(222,230,233,1) 2%, rgba(18,205,226,1) 46%, rgba(78,159,227,1) 90%);
+
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.cards #card1{
+    grid-column: 1/3;
+    grid-row: 1/4;
+    padding: 20px;
+    grid-area: 1 / 1 / 5/ 4;
+    margin-right: 30px;
+
+ }
+ #card1 .upper,.lower{
+     margin: 10px;
+     padding: 10px;
+     font-size: 20px;
+   
+     
+ }
+ .cards #card2,#card3,#card4,#card5,#card6,#card7{
+     margin-bottom: 30px;
+     margin-top: 50px;
+     margin-right: 15px;
+ }
+ 
+ #card1 .upper{
+     margin-top: 30px;
+     margin-bottom: 20px;
+ }
+ #card1 hr{
+     padding: 2px;
+ }
+ 
+ .card  p{
+
+     padding-bottom: 15px;
+     padding-top:10px ;
+     color: white;
+    text-shadow: 3px 3px grey ;
+     font-weight: bold;
+     font-size: 25px;
+     font-family: 'Baloo Bhaina 2', cursive;
+     
+ }
+ .card button{
+     padding: 5px;
+     /* margin-top: 80px; */
+     margin-bottom: 10px;
+     border-radius: 8px;
+     border: none;
+     background-color:aqua;
+     color: grey;
+     font-family: 'Baloo Bhaina 2', cursive;
+     width: 55%;
+
+ }
+ #card1 #radio{
+     width:10%;
+     margin-left:0px;
+     
+     
+ }
+ #card2 button{
+    margin-top: 100px;
+ }
+ #card4 button{
+    margin-top: 45px;
+ }
+ #card5 .radio{
+     width: 20%;
+
+ }
+  label{
+     color: white;
+     font-family:'Baloo Bhaina 2', cursive;
+ }
+ #card1 .lower button{
+     width: 70%;
+ }
+ button {
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     font-family: 'Baloo Bhaina 2', cursive;
+ }
+ button:hover{
+     background-color: black;
+     color: white;
+     border: 3px solid aqua;
+    
+ }
+ .card input{
+     width: 80%;
+     padding: 8px;
+     border-radius:  8px ;
+     border: 2px solid white;
+     margin-bottom: 20px;
+ }
+ .card input:hover,:focus{
+    border: none;
+    border-bottom: 5px solid aqua;
+    outline: none;
+    background: none;
+
+
+ }
+ 
+  #card6 p{
+      font-size: 20px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+     
+ }
+ #card6 button{
+     width: 80%;
+ }
+ #card7 p{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+   
+}
+#card7 button {
+   width: 80%;
+}
+ .card:hover{
+    
+  -webkit-transform: rotateY(1turn);
+          transform: rotateY(1turn);
+        }
+        
+
+        @media screen and(max-width:790px){
+            .container{
+            width: 500%;
+            height: 500%;
+            }
+        }

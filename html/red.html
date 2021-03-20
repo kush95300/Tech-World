@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;300&display=swap" rel="stylesheet">
+    <title>Redhat Terminal</title>
+    <link rel="icon" href="https://zdnet3.cbsistatic.com/hub/i/2014/10/05/770a09d4-4cd2-11e4-b6a0-d4ae52e95e57/red-hat-logo-0507-v1.png" type = "image/x-icon">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        
+        background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,0.9976365546218487) 26%, rgba(255,0,31,1) 100%);
+        text-align: center;
+        
+    }
+    .contain{
+        background-color: white;
+        width: 50%;
+        border-right: 1px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 15px;
+        margin-top: 80px;
+        margin-left: 350px;
+        box-shadow: 3px 3px 9px gray;
+    }
+    .contain h1{
+        font-size: 35px;
+        padding: 10px;
+        color: red;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+    }
+    .contain h2{
+        font-size: 50px;
+        color: salmon;
+        padding-bottom: 35px ;
+        /* font-family: 'Baloo Bhai 2', cursive;
+         */
+         font-family: 'Big Shoulders Stencil Text', cursive;
+        
+    }
+    .contain form img{
+        padding-top: 25px;
+        width: 200px;
+         height: 200px;
+
+    }
+    .contain:hover{
+        border-right: 2px solid blue;
+        border-bottom: 2px solid blue;
+        box-shadow: 3px 3px 9px white;
+    }
+    #command{
+        width: 80%;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        font-size:20px;
+    }
+    
+    #command,#btn{
+        
+        border: none;
+        border: 1px solid rgba(252,70,107,1);
+        padding: 10px;
+        
+        margin: 5px;
+        border-radius: 5px;
+    }
+    button{
+        margin-top: 2px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        background: radial-gradient(circle ,rgba(63,94,251,1)0% ,rgba(252,70,107,1) 100% );
+        width: 25%;
+        color: white;
+        border: 2px solid black;
+        font-weight: bold;
+        padding: 10px;
+
+    }
+    button:hover{
+        background-color: rgb(118, 118, 184);
+        color: white;
+        border: 2px solid red;
+        cursor: pointer;
+    }
+    #command:focus{
+        outline: none;
+        border: none;
+        
+        border-right:2px solid rgba(252,70,107,1) ;
+        border-top:2px solid rgba(252,70,107,1); ;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px #CCC;
+    }
+    
+   
+    
+    @media screen and (max-width:970px) {
+        .contain{
+            margin-top: 200px;
+        
+        margin-left: 220px;
+        width: 40%;
+        height: 40%;
+
+        }
+        .contain h1{
+            font-size: 20px;
+        }
+        .contain h2{
+            font-size: 20px;
+        }
+        .contain form img{
+            width: 100px;
+            height: 100px;
+        }
+        .contain form #command{
+            font-size: 10px;
+        }
+        #btn{
+            width: 80%;
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (max-width:521px) {
+        .contain{
+            margin-left: 170px;
+        }
+        .contain h1{
+            font-size:15px
+        }
+        .contain h2{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+        .contain form img{
+            width: 100px;
+            height: 100px;
+        }
+        .contain form #command{
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width:441px) {
+        .contain{
+            margin-left: 100px;
+            margin-top: 100px;
+            width: 50%;
+        }
+        .contain h1{
+            font-size:10px
+        }
+        .contain h2{
+        font-size: 10px;
+        padding-bottom: 10px;
+        }
+        .contain form img{
+            width: 100px;
+            height: 100px;
+        }
+        .contain form #command{
+            font-size: 10px;
+        }
+        #btn{
+            padding: 10px;
+            font-size: 10px ;
+            width: 80px;
+        }
+    }
+    @media screen and (max-width:1024px) {
+        .contain{
+            margin-left: 250px;
+            margin-top: 350px;
+            width: 50%;
+        }
+        
+    }
+    @media screen and (max-width:540px) {
+        .contain{
+            margin-left: 150px;
+            margin-top: 200px;
+            width: 50%;
+        }
+        
+    }
+    @media screen and (max-width:280px) {
+        .contain{
+            margin-left: 80px;
+            margin-top: 200px;
+            width: 50%;
+        }
+        
+    }
+    
+</style>
+<body>/
+    
+    <div class="container">
+        <div class="contain">
+            <form action="http://192.168.43.185/cgi-bin/redhatapi.py" method="POST"   >
+        <img src="https://zdnet3.cbsistatic.com/hub/i/2014/10/05/770a09d4-4cd2-11e4-b6a0-d4ae52e95e57/red-hat-logo-0507-v1.png" alt="redhat" >
+        <h1 >Red Hat Terminal</h1>
+        <h2>Enter the command</h2>
+        
+            <input id="command" type="text" name="Command"  placeholder="Enter Command">
+            <br>
+            <br>
+            
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
