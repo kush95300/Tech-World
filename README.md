@@ -1,7 +1,8 @@
 # Tech-World
 
 ## Introduction
-
+</br></br>      </b><img src="Tech-world-logo.png" width=400 align="center"/>
+<br></br>
 Tech-World is a web application which can help to manage many technologies from any normal browser by any Techi or non-techi. This application is specially designed for easy GUI technologies management. Currently it is for educational and learning purpose only. It is based on technologies like- Linux , AWS, Hadoop, Docker ( and more to come ).  Every one can use this application whether person  belongs to technical background or not (have some basic idea). It helps to practice redhat commands, hadoop practicals and aws management. It can also manage containers by docker.
 
 # Requirements 
