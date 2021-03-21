@@ -33,14 +33,14 @@ It contains Redhat Terminal.
 
 ### AWS Menu of Application :
 
-</br></br>       <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+</br></br>       <img src="aws.gif" width=400 align="center"/>
 <br> </br></br>
 
 It contains AWS Services.
 
 ## Hadoop Menu of Application :
 
-</br></br>       <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+</br></br>       <img src="hadoop.gif" width=400 align="center"/>
 <br> </br></br>
 
 It contains Hadoop Services.
@@ -48,14 +48,14 @@ It contains Hadoop Services.
 
 ### Docker Menu of Application :
 
-<br><br>    <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+<br><br>    <img src="docker.gif" width=400 align="center"/>
 <br><br><br>
 
 It contains Docker Services.
 
 ### Devloper Menu 
 
-<br><br>     <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+<br><br>     <img src="developer.gif" width=400 align="center"/>
 <br><br><br>
 
 It contains Developers details.
@@ -64,7 +64,7 @@ It contains Developers details.
 # App code can be downloaded from :
 
 1. Github (From this repository )
-2. By git clone: <b> " git clone https://github.com/kush95300/Tech-World.git" </b>
+2. By git clone: > <b> git clone https://github.com/kush95300/Tech-World.git  </b>
 
 #### NOTE: This app is a ongoing project.
 
@@ -99,7 +99,7 @@ EMAIL:
 kaushal95300@gmail.com
 
 LinkedIn :
-linkedin.com/in/kaushal-soni-988650146/
+https://www.linkedin.com/in/kaushal-soni-988650146/
 
 Github :
 https://github.com/kush95300
@@ -111,10 +111,10 @@ https://github.com/kush95300
 <p><b><h2>Akanksha Chhattri</h2></b></p>
 
 EMAIL: 
-
+akuchhattri14@gmail.com
 
 LinkedIn: 
-
+https://www.linkedin.com/in/akanksha-chhattri-167364140/
 
 Github: 
 
@@ -126,10 +126,10 @@ Github:
 <p><b><h2> Ajay Singh Chouhan </h2></b></p>
 
 Gmail:
-
+aj2215singh@gmail.com
 
 LinkedIn: 
-
+https://www.linkedin.com/in/ajay-singh-chouhan-264b591a6/
 
 Github:
 
@@ -143,9 +143,10 @@ Github:
 <p><b><h2>Vanshika Jain</h2></b></p>
 
 EMAIL: 
+vanshikajain622@gmail.com
 
-
-LinkedIn: 
+LinkedIn:
+https://www.linkedin.com/in/vanshika-jain-729b961b0/
 
 Github:
 
