@@ -18,17 +18,14 @@ There are some requirements to run this application:</br>
 ## About Tech-World Menu app : 
 
 ### Main Menu of Application :
-
-
-<b> Starting Splash Screen of App           : </br></br>      </b><img src="menu.gif" width=400 align="center"/>
+</br></br>      </b><img src="menu.gif" width=400 align="center"/>
 <br></br>
 
 It contains all technologies and liner to all pages.
 
 ### Redhat Menu of Application :
 
-
-<b> Starting Splash Screen of App           :  </br></br>       </b><img src="redhat.gif" width=400 align="center"/>
+</br></br>      <img src="redhat.gif" width=400 align="center"/>
 <br> </br></br>
 
 It contains Redhat Terminal.
@@ -36,14 +33,14 @@ It contains Redhat Terminal.
 
 ### AWS Menu of Application :
 
-<b> Starting Splash Screen of App           : </br></br>       </b><img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+</br></br>       <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
 <br> </br></br>
 
 It contains AWS Services.
 
 ## Hadoop Menu of Application :
 
-<b> Starting Splash Screen of App           : </br></br>       </b><img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+</br></br>       <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
 <br> </br></br>
 
 It contains Hadoop Services.
@@ -51,14 +48,14 @@ It contains Hadoop Services.
 
 ### Docker Menu of Application :
 
-<b> Starting Splash Screen of App           : <br><br>      </b><img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+<br><br>    <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
 <br><br><br>
 
 It contains Docker Services.
 
 ### Devloper Menu 
 
-<b> Starting Splash Screen of App           : <br><br>      </b><img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
+<br><br>     <img src="images/Splash-Screen1.jpeg" width=400 align="center"/>
 <br><br><br>
 
 It contains Developers details.
