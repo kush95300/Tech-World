@@ -15,37 +15,49 @@ file = db.getvalue("file")
 content=db.getvalue("content")
 
 node= db.getvalue("node")
+ip= db.getvalue("ip")
 
 output="" 
 if choice =="1" :
+     # ansible role
      output = "node created"
 
 elif choice == "2":
-  
+  # output = sp.getoutput("sudo hadoop dfsadmin -report | less")
   output  = "Report created"
    
 elif choice == "3":
-   output = "Opened"
+   output = "<a href='http://{}:50070'><b> Click here to Open </b></a>".format(ip)
    
 elif choice == "4":
+    #if fold == None:
+    #   fold = ""
+    #output = sp.getoutput("sudo hadoop fs -ls /{}".format(fold))
    output= "listed"
    
 elif choice == "5":
+   # output = sp.getoutput("sudo hadoop fs -cat /{}".format(file))
    output = "Hii , I am file"
    
 elif choice == "6":
+   # output = sp.getoutput("sudo hadoop fs -mkdir /{}".format(fold))
    output = "folder Created"
 elif choice == "7":
+
    output = "File Created"
 elif choice == "8":
+    # if fold == None:
+    #        output = sp.getoutput("sudo hadoop fs -touchz /{}".format(file))
+    # else:
+    #        output = sp.getoutput("sudo hadoop fs -touchz /{}/{}".format(fold,file))
    output = "Empty file created"
 elif choice == "9":
+# output = sp.getoutput("sudo hadoop fs -rm /{}/{}".format(fold,file))
    output = "File removed"
 
 elif choice == "10":
+# output = sp.getoutput("sudo hadoop fs -rmr /{}".format(fold))
    output = "folder removed"
-elif choice == "11":
-   output = "folder Created"
 else:
    output = "Something went Wrong..."
 print("""<style>

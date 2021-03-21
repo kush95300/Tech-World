@@ -31,23 +31,30 @@ image = db.getvalue("image")
 
 output="" 
 if choice =="1" :
-     output = "key pair created"
+     #output = sp.getoutput("sudo aws ec2 create-key-pair --key-name {}".format(key))
+     output = output + "\n\nkey pair created"
 
 elif choice == "2":
-  
-  output  = "security group created"
+  #output = sp.getoutput('sudo aws ec2 create-security-group --group-name {} --description "SG Created using webapp. {}"'.format(sg,Type)
+  output  = output + "\n\n<b> security group created </b>"
    
 elif choice == "3":
-   output = "Add inbound rules"
+   #output = sp.getoutput("sudo aws ec2 authorize-security-group-ingress --group-name {} --protocol {} --port {} --cidr {}/0".format(sg,protocol,port,ip))
+   output = output + "\n\n<b> Added inbound rules. </b>"
    
 elif choice == "4":
-   output= "Instance launched"
+   # name = "--tag-specifications " + '"ResourceType = instance , Tags = [{Key=\"Name\",Value=\"' + name +'"}]"'
+   # az = "--placement " + '"AvailabilityZone='+ az + '"'
+   # output = sp.getoutput("sudo aws ec2 run-instances --image-id {0} --instance-type {1} --key-name {2} --security-group-ids {3}  {4} {5}".format(image,Type,key,sg,name,az))
+   output= output + "\n\n<b> Instance Launched </br>"
    
 elif choice == "5":
-   output = "Ebs volume created"
+   #  output = sp.getoutput('sudo aws ec2 create-volume --availability-zone "{}" --size {}'.format(volume,size))
+   output = output + "\n\n<b> Ebs volume created </b>"
    
 elif choice == "6":
-   output = "EBS volume attached to instance"
+   #  output = sp.getoutput("sudo aws ec2 attach-volume --instance-id {} --volume-id {} --device {}".format(iid,vid,volume))
+   output = output + "\n\n<b> EBS volume attached to instance </b>"
    
 else:
    output = "Something went Wrong..."

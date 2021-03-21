@@ -39,8 +39,8 @@
             <hr>
             <form action="http://192.168.43.185/cgi-bin/awsapi.py">
             <h2>Create a Security Group</h2>
-            <input type="text" name="sg" placeholder="Enter the Enter The secuirty Group Name" class="fill">
-            <input type="text" name="Type" placeholder="Enter Type designation" class="fill">
+            <input type="text" name="sg" placeholder="Enter The secuirty Group Name" class="fill">
+            <input type="text" name="Type" placeholder="Enter Discription" class="fill">
             <input type="hidden" name="choice" value="2">
             <button id="btn" type="submit">Create SG</button>
             </form>
@@ -50,9 +50,9 @@
             <form action="http://192.168.43.185/cgi-bin/awsapi.py">
             <h2>Add Inbound Rules to Securtiy Group</h2>
             <input type="text" name="sg" placeholder="Enter the SG Name to add Rules" class="fill">
-            <input type="text" name="protocol" placeholder="Enter the Protocol" class="fill">
-            <input type="text" name="port" placeholder="Enter the Port Number" class="fill">
-            <input type="text" name="ip" placeholder="Enter the IP Address to Allow" class="fill">
+            <input type="text" name="protocol" placeholder="Enter the Protocol. e.g. - all, http" class="fill">
+            <input type="text" name="port" placeholder="Enter the Port Number. e.g.- 80" class="fill">
+            <input type="text" name="ip" placeholder="Enter the IP Address to Allow. e.g.- 0.0.0.0" class="fill">
             <input type="hidden" name="choice" value="3">
             <button type="submit">Create SG Rules</button>
             </form>
@@ -62,9 +62,9 @@
             <form action="http://192.168.43.185/cgi-bin/awsapi.py">
             <h2>Launch an Instance</h2>
 
-            <input type="text" name="image" placeholder="Select image Id For Instance Launch" class="fill">
+            <input type="text" name="image" placeholder="Type image Id For Instance Launch" class="fill">
             <input type="text" name="name" placeholder="Give The Name To New Instance" class="fill">
-            <input type="text" name="az" placeholder="Giv AZ to Place Instance" class="fill">
+            <input type="text" name="az" placeholder="Give AZ name" class="fill">
             <input type="text" name="Type" placeholder="Enter The Instance Type(default t2 micro)" class="fill">
             <input type="text" name="key" placeholder="Provide The Key Pair To New Instance I" class="fill">
             <input type="text" name="sg" placeholder="Provide Security Group To New Instance" class="fill">
