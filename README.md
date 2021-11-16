@@ -158,9 +158,4 @@ Github:
 
 # #ARTH   #Right_learning  #Tech-World #Task9.2
 
-# LICENCE & COPYRIGHT
-
- © Kaushal Soni
- 
- Licence Under the [MIT LICENCE](LICENSE)
-
+C
